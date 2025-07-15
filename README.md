@@ -61,3 +61,7 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
    ```bash
    git clone https://github.com/yourusername/ur5e-ppo-robot-tracking.git
    cd ur5e-ppo-robot-tracking
+
+Create a Python virtual environment (optional but recommended):
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
