@@ -63,6 +63,13 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
    cd ur5e-ppo-robot-tracking
 
 2. **Create a Python virtual environment (optional but recommended)**:
-  ```bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # or venv\Scripts\activate on Windows
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+🚀 How to Use
+▶️ Train the PPO Agent
+Run the training loop:
