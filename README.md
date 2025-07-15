@@ -2,7 +2,7 @@
 Master's thesis project: PPO-based control of 4DOF robot in PyBullet to track a target cube.
 # 🤖 4DOF PPO Cube Tracking — Master's Thesis
 
-This project presents a reinforcement learning approach using **Proximal Policy Optimization (PPO)** to control a **custom 4-DOF UR5e robotic arm** for **real-time cube tracking** in the **PyBullet** simulation environment. The robot model was exported from **SolidWorks** and integrated into a learning framework for robotic control using PPO.
+This project presents a reinforcement learning approach using **Proximal Policy Optimization (PPO)** to control a **custom 4-DOF  robotic arm** for **real-time cube tracking** in the **PyBullet** simulation environment. The robot model was exported from **SolidWorks** and integrated into a learning framework for robotic control using PPO.
 
 > 🎓 Master's Thesis – Vrije Universiteit Brussel (VUB) & Université libre de Bruxelles (ULB)  
 > 👨‍🔬 Author: Mayur Ashok Sonawane  
@@ -12,7 +12,7 @@ This project presents a reinforcement learning approach using **Proximal Policy 
 
 ## 🎯 Project Objectives
 
-- Develop a simulation environment for a 4-DOF UR5e robot using URDF in PyBullet.
+- Develop a simulation environment for a 4-DOF robot using URDF in PyBullet.
 - Use Proximal Policy Optimization (PPO) for continuous control of the robot.
 - Train the robot to track the position of a moving cube.
 - Evaluate training performance using reward curves and visual results.
@@ -23,7 +23,7 @@ This project presents a reinforcement learning approach using **Proximal Policy 
 ## 🧠 Technical Overview
 
 - **Environment**: PyBullet  
-- **Robot Model**: UR5e – custom 4-DOF version (URDF from SolidWorks)  
+- **Robot Model**: custom 4-DOF version (URDF from SolidWorks)  
 - **Algorithm**: PPO (from Stable-Baselines3)  
 - **Tracking Goal**: Robot end-effector follows a cube's position  
 - **Observation**: Joint positions, velocities, and target cube coordinates  
@@ -40,3 +40,24 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
 
 ## 📁 Project Directory Structure
 
+4DOF-ppo-robot-tracking/
+│
+├── urdf/ # Custom 4DOF robot URDF files
+├── assets/ # Cube model or mesh files
+├── ppo/ # PPO training and evaluation scripts
+│ ├── train.py # Training loop
+│ ├── test.py # Evaluate trained agent
+│ └── ppo_agent.py # PPO configuration
+│
+├── simulation/ # Environment wrapper and robot-cube interaction
+├── results/ # Trained models, logs, reward plots
+├── requirements.txt # Python dependencies
+├── README.md # Project overview (this file)
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/ur5e-ppo-robot-tracking.git
+   cd ur5e-ppo-robot-tracking
