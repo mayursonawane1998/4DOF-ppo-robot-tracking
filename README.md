@@ -72,11 +72,16 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
 
 ## 🚀 How to Use:
 
-**▶️ Train the PPO Agent**
-
+1. **▶️ Train the PPO Agent**
 Run the training loop:
-```bash
-python ppo/train.py
+   ```bash
+   python ppo/train.py
+
+2. **🎮 Test the Trained Agent**
+Run the trained policy in simulation:
+   ```bash
+   python ppo/test.py
+
 
 
 
