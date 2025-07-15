@@ -59,7 +59,7 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/4DOF-ppo-robot-tracking.git
+   git clone https://github.com/mayursonawane1998/4DOF-ppo-robot-tracking.git
    cd 4DOF-ppo-robot-tracking
 
 2. **Create a Python virtual environment (optional but recommended)**:
@@ -94,7 +94,15 @@ Matplotlib
 
 Gym
 
-SolidWorks (for URDF export)
+SolidWorks (for URDF export) and More.
+
+## 📚 Thesis & Documentation
+The complete technical details, system architecture, algorithm design, and results are available in the full Master’s thesis report.
+
+## Thank you for checking out my thesis project!
+
+
+
 
 
 
