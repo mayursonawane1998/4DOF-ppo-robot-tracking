@@ -1,0 +1,6 @@
+pybullet==3.2.5
+numpy>=1.20.0
+matplotlib>=3.4.0
+stable-baselines3==1.8.0
+gym==0.21.0
+torch>=1.11.0
