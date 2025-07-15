@@ -89,27 +89,5 @@ python ppo/test.py
 
 You should see the robot arm trying to track the cube in the PyBullet simulation.
 
-🔧 Tools & Libraries Used
----
-Python 3.8+
----
-PyBullet
----
-Stable-Baselines3
----
-NumPy
----
-Matplotlib
----
-Gym
----
-SolidWorks (for URDF export)
-
-📚 Thesis & Documentation:
-
-The complete technical details, system architecture, algorithm design, and results are available in the full Master’s thesis report>
----
-Thank you for checking out my thesis project!
-
 
 
