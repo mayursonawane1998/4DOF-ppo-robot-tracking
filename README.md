@@ -70,9 +70,9 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
    ```bash
    pip install -r requirements.txt
 
-🚀 How to Use:
+## 🚀 How to Use:
 
-▶️ Train the PPO Agent
+**▶️ Train the PPO Agent**
 
 Run the training loop:
 ```bash
