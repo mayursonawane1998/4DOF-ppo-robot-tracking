@@ -18,7 +18,7 @@ This project presents a reinforcement learning approach using **Proximal Policy 
 - Evaluate training performance using reward curves and visual results.
 - Create a modular base for future work in robotics, control, and sim-to-real transfer.
 
----
+
 ---
 **🧪 Primary Research Objectives**
 
