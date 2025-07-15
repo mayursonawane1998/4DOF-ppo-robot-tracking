@@ -59,8 +59,8 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ur5e-ppo-robot-tracking.git
-   cd ur5e-ppo-robot-tracking
+   git clone https://github.com/yourusername/4DOF-ppo-robot-tracking.git
+   cd 4DOF-ppo-robot-tracking
 
 2. **Create a Python virtual environment (optional but recommended)**:
    ```bash
@@ -71,16 +71,30 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
    pip install -r requirements.txt
 
 ## 🚀 How to Use:
-
-1. **▶️ Train the PPO Agent**---
+1. **▶️ Train the PPO Agent**
 Run the training loop:
    ```bash
    python ppo/train.py
 
-2. **🎮 Test the Trained Agent**---
+2. **🎮 Test the Trained Agent**
 Run the trained policy in simulation:
    ```bash
    python ppo/test.py
+
+## 🔧 Tools & Libraries Used
+Python 3.8+
+
+PyBullet
+
+Stable-Baselines3
+
+NumPy
+
+Matplotlib
+
+Gym
+
+SolidWorks (for URDF export)
 
 
 
