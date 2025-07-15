@@ -70,9 +70,9 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
    ```bash
    pip install -r requirements.txt
 
-🚀 How to Use:
----
-▶️ Train the PPO Agent
+##🚀 How to Use:
+
+**▶️ Train the PPO Agent**
 ---
 Run the training loop:
 ```bash
@@ -81,7 +81,7 @@ python ppo/train.py
 This will train the PPO agent to follow the cube and save the trained model in results/.
 
 ---
-🎮 Test the Trained Agent
+**🎮 Test the Trained Agent**
 ---
 Run the trained policy in simulation:
 ```bash
