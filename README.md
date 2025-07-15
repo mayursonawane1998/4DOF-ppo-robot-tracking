@@ -77,7 +77,7 @@ Videos, GIFs, and screenshots will be uploaded to show robot performance after t
 Run the training loop:
 ```bash
 python ppo/train.py
----
+
 This will train the PPO agent to follow the cube and save the trained model in results/.
 
 ---
@@ -86,9 +86,9 @@ This will train the PPO agent to follow the cube and save the trained model in r
 Run the trained policy in simulation:
 ```bash
 python ppo/test.py
----
+
 You should see the robot arm trying to track the cube in the PyBullet simulation.
----
+
 🔧 Tools & Libraries Used
 ---
 Python 3.8+
@@ -104,9 +104,9 @@ Matplotlib
 Gym
 ---
 SolidWorks (for URDF export)
----
+
 📚 Thesis & Documentation:
----
+
 The complete technical details, system architecture, algorithm design, and results are available in the full Master’s thesis report>
 ---
 Thank you for checking out my thesis project!
