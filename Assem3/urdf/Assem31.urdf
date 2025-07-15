@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Assem3">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0068304 -0.063554 0.046292"
+        rpy="0 0 0" />
+      <mass
+        value="20.049" />
+      <inertia
+        ixx="0.42457"
+        ixy="5.8481E-08"
+        ixz="-2.2569E-08"
+        iyy="0.49879"
+        iyz="-0.040982"
+        izz="0.34017" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.64706 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Empty_Link1">
+    <inertial>
+      <origin
+        xyz="-0.0068304 0.21631 0.014994"
+        rpy="0 0 0" />
+      <mass
+        value="14.515" />
+      <inertia
+        ixx="0.28139"
+        ixy="-1.2685E-09"
+        ixz="-2.6436E-08"
+        iyy="0.10949"
+        iyz="-2.5985E-17"
+        izz="0.30806" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/Empty_Link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.64706 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/Empty_Link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Empty_Link1" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.4"
+      upper="1.4"
+      effort="0"
+      velocity="1.745" />
+  </joint>
+  <link
+    name="Empty_Link2">
+    <inertial>
+      <origin
+        xyz="-1.7681E-08 0.19148 0.0049935"
+        rpy="0 0 0" />
+      <mass
+        value="12.735" />
+      <inertia
+        ixx="0.5684"
+        ixy="1.4814E-08"
+        ixz="2.382E-08"
+        iyy="0.10165"
+        iyz="5.9912E-08"
+        izz="0.519" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/Empty_Link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.64706 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/Empty_Link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_2"
+    type="revolute">
+    <origin
+      xyz="-0.0068304 0.33924 0"
+      rpy="0 0 -1.2179" />
+    <parent
+      link="Empty_Link1" />
+    <child
+      link="Empty_Link2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1"
+      upper="1.9"
+      effort="0"
+      velocity="1.745" />
+  </joint>
+  <link
+    name="Empty_Link3">
+    <inertial>
+      <origin
+        xyz="0.13287 0.12036 0.0049935"
+        rpy="0 0 0" />
+      <mass
+        value="11.911" />
+      <inertia
+        ixx="0.074459"
+        ixy="-0.038544"
+        ixz="-2.2693E-10"
+        iyy="0.32506"
+        iyz="-7.5182E-10"
+        izz="0.35697" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/Empty_Link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.64706 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/Empty_Link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_3"
+    type="revolute">
+    <origin
+      xyz="0 0.5 0"
+      rpy="0 0 1.243" />
+    <parent
+      link="Empty_Link2" />
+    <child
+      link="Empty_Link3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1"
+      upper="1.484"
+      effort="0"
+      velocity="1.745" />
+  </joint>
+  <link
+    name="End_effector">
+    <inertial>
+      <origin
+        xyz="0.023348 3.2877E-08 0.0049935"
+        rpy="0 0 0" />
+      <mass
+        value="1.172" />
+      <inertia
+        ixx="0.002137"
+        ixy="-3.9277E-10"
+        ixz="-5.2391E-10"
+        iyy="0.0061265"
+        iyz="-1.6765E-09"
+        izz="0.0066365" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/End_effector.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.64706 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/End_effector.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_4"
+    type="revolute">
+    <origin
+      xyz="0.4257 0.14425 0"
+      rpy="0 0 -0.025146" />
+    <parent
+      link="Empty_Link3" />
+    <child
+      link="End_effector" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.58"
+      upper="1.58"
+      effort="0"
+      velocity="1.745" />
+  </joint>
+  <link
+    name="Camera">
+    <inertial>
+      <origin
+        xyz="-0.025 0 0.016025"
+        rpy="0 0 0" />
+      <mass
+        value="0.060066" />
+      <inertia
+        ixx="1.768E-05"
+        ixy="1.3905E-21"
+        ixz="-1.6302E-20"
+        iyy="1.768E-05"
+        iyz="-3.493E-22"
+        izz="1.716E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/Camera.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem3/meshes/Camera.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_5"
+    type="fixed">
+    <origin
+      xyz="0.1735 0 -0.020006"
+      rpy="0 1.5708 0" />
+    <parent
+      link="End_effector" />
+    <child
+      link="Camera" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
