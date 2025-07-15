@@ -19,6 +19,20 @@ This project presents a reinforcement learning approach using **Proximal Policy 
 - Create a modular base for future work in robotics, control, and sim-to-real transfer.
 
 ---
+---
+**🧪 Primary Research Objectives**
+
+- 🔧 **Implementation and Validation**:  
+  To implement the PPO algorithm for controlling a 4-DOF robotic arm and validate its performance in a baseline scenario without visual feedback. This involves defining the **state and action spaces**, designing an appropriate **reward function**, and conducting **extensive training** to achieve reliable baseline performance.
+
+- 👁️ **Impact Analysis of Visual Feedback**:  
+  To evaluate the influence of **visual feedback from a camera mounted on the end effector** on the robot’s performance. This includes processing the visual data, integrating it with the simulation data into the PPO framework, and analyzing the robot’s ability to **find and follow the cube** using this combined input. The goal is to understand how visual perception affects robotic behavior and performance.
+
+- 🧠 **Effectiveness of YOLO Integration**:  
+  To investigate the effectiveness of incorporating **YOLO** for real-time cube detection and its impact on the robot’s tracking performance. This involves modifying the PPO algorithm to utilize the cube’s detected position, assessing the robot’s ability to follow the cube in **dynamic environments**, and comparing these results with the previous two setups.
+
+---
+
 
 ## 🧠 Technical Overview
 
